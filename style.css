@@ -230,3 +230,19 @@ body.dark{
   --card-bg: rgba(18,18,18,0.5);
   --neon: #ffd76b;
 }
+body.dark .site-header {
+  background: rgba(18, 18, 18, 0.95);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+body.dark .main-nav {
+  background: rgba(20, 20, 20, 0.95);
+}
+
+body.dark .main-nav a {
+  color: var(--text);
+}
+
+body.dark .main-nav a:hover {
+  color: var(--accent);
+}
